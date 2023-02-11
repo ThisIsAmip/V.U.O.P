@@ -74,4 +74,20 @@ nav.category-menu ul li a:hover {
     border-bottom: 5px solid #00a2e8;
     color: #00a2e8;
 }
+/*------------Tools--------------*/
+.tool-search {
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1em;
+}
+
+.tool-user {
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1em;
+}
 /* Unfinished */
