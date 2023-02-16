@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: space-around;
     padding: 5px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
     border-bottom: 1.5px solid white;
 }
 
@@ -37,6 +37,7 @@ header {
     height: fit-content;
     flex-wrap: nowrap;
     justify-content: center;
+    padding-top: 6px;
 }
 
 .logo a img {
@@ -80,7 +81,8 @@ nav.category-menu ul li a:hover {
     align-content: center;
     align-items: center;
     justify-content: center;
-    padding-right: 1em;
+    margin: 13px;
+    cursor: pointer;
 }
 
 .tool-user {
@@ -88,6 +90,10 @@ nav.category-menu ul li a:hover {
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding-right: 1em;
+    margin: 13px;
+    cursor: pointer;
+}
+box-icon {
+    margin: 10px;
 }
 /* Unfinished */
